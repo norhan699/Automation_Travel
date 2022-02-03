@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-21T13:43:52 EET" name="Default suite" finished-at="2022-01-21T13:44:02 EET" duration-ms="9577">
+    <groups>
+    </groups>
+    <test started-at="2022-01-21T13:43:52 EET" name="Default test" finished-at="2022-01-21T13:44:02 EET" duration-ms="9577">
+      <class name="automationExercise.tests.AutomationExerciseSignUp">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:automationExercise.tests.AutomationExerciseSignUp@436813f3]" started-at="2022-01-21T13:43:52 EET" name="Setup" finished-at="2022-01-21T13:43:55 EET" duration-ms="2990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="navigateToSignUpPage()[pri:0, instance:automationExercise.tests.AutomationExerciseSignUp@436813f3]" started-at="2022-01-21T13:43:55 EET" name="navigateToSignUpPage" finished-at="2022-01-21T13:44:00 EET" duration-ms="5440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignUpPage -->
+        <test-method signature="SignUpNow()[pri:0, instance:automationExercise.tests.AutomationExerciseSignUp@436813f3]" started-at="2022-01-21T13:44:00 EET" name="SignUpNow" finished-at="2022-01-21T13:44:02 EET" depends-on-methods="automationExercise.tests.AutomationExerciseSignUp.navigateToSignUpPage" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpNow -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:automationExercise.tests.AutomationExerciseSignUp@436813f3]" started-at="2022-01-21T13:44:02 EET" name="TearDown" finished-at="2022-01-21T13:44:02 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- automationExercise.tests.AutomationExerciseSignUp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
